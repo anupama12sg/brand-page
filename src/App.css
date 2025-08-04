@@ -22,10 +22,14 @@ button {
     font-weight: 500;
 }
 
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
-    max-width: 1280px;
     margin: 0 auto;
     height: 72px;
     align-items: center;
@@ -35,4 +39,9 @@ nav ul {
     display: flex;
     list-style: none;
     gap: 24px;
+}
+
+.hero {
+    display: flex;
+
 }
